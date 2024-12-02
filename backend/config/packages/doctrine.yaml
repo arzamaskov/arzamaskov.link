@@ -21,7 +21,7 @@ doctrine:
             Users:
                 type: attribute
                 is_bundle: false
-                dir: '%kernel.project_dir%/src/Users/Infrastructure/Database/ORM'
+                dir: '%kernel.project_dir%/src/Users/Domain/Entity'
                 prefix: 'App\Users\Domain\Entity'
                 alias: Users
         controller_resolver:

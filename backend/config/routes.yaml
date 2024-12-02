@@ -3,3 +3,9 @@ controllers:
         path: ../src/Shared/Infrastructure/Controller/
         namespace: App\Shared\Infrastructure\Controller
     type: attribute
+
+auth_controllers:
+    resource:
+        path: ../src/Auth/Infrastructure/Controller/
+        namespace: App\Auth\Infrastructure\Controller
+    type: attribute
