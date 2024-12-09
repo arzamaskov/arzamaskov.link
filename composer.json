@@ -1,5 +1,6 @@
 {
     "require": {
-        "symfony/uid": "^7.2"
+        "symfony/uid": "^7.2",
+        "symfony/security-bundle": "^7.2"
     }
 }
