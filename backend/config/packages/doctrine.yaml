@@ -19,10 +19,10 @@ doctrine:
         auto_mapping: true
         mappings:
             Users:
-                type: attribute
+                type: xml
                 is_bundle: false
-                dir: '%kernel.project_dir%/src/Users/Domain/Entity'
-                prefix: 'App\Entity'
+                dir: '%kernel.project_dir%/src/Users/Infrastructure/Database/ORM'
+                prefix: 'App\Users\Domain\Entity'
                 alias: Users
         controller_resolver:
             auto_mapping: false
