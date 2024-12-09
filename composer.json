@@ -1,0 +1,5 @@
+{
+    "require": {
+        "symfony/uid": "^7.2"
+    }
+}
